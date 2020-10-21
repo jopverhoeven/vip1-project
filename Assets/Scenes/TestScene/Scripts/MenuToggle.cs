@@ -10,7 +10,7 @@ public class MenuToggle : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        menuObject.SetActive(false);
     }
 
     // Update is called once per frame

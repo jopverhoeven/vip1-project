@@ -23,5 +23,6 @@ public class MenuTeleport : MonoBehaviour
     public void TeleportToLocation(Transform location)
     {
         this.transform.position = location.position;
+        this.transform.rotation = location.rotation;
     }
 }
