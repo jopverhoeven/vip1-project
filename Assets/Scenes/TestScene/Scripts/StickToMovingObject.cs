@@ -17,10 +17,15 @@ public class StickToMovingObject : MonoBehaviour
         Ray ray = new Ray(transform.position, Vector3.down);
         if (Physics.Raycast(ray, out raycastHit, 3f))
         {
+            Debug.Log(raycastHit.transform.gameObject.tag);
+            Debug.Log(raycastHit.transform.gameObject.name);
+
             if (raycastHit.transform.gameObject.tag == "MovingAlong")
             {
                 transform.parent = raycastHit.transform;
-            } else {
+            }
+            else
+            {
                 transform.parent = null;
                 transform.rotation = Quaternion.identity;
             }
