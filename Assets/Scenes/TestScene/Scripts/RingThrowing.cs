@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class RingThrowing : MonoBehaviour
 {
+    private ParticleSystem particleSystem;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        particleSystem = this.GetComponentInChildren<ParticleSystem>();
     }
 
     // Update is called once per frame
@@ -21,6 +23,9 @@ public class RingThrowing : MonoBehaviour
         if (other.tag == "RingThrowing") {
             Material material = other.gameObject.GetComponent<MeshRenderer>().material;
             material.color = Color.green;
+
+            particleSystem.transform.position = other.transform.position;
+            particleSystem.Play();
         }
     }
 
@@ -28,6 +33,8 @@ public class RingThrowing : MonoBehaviour
         if (other.tag == "RingThrowing") {
             Material material = other.gameObject.GetComponent<MeshRenderer>().material;
             material.color = Color.white;
+
+            particleSystem.Stop();
         }
     }
 
