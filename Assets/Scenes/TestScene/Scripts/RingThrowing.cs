@@ -25,6 +25,8 @@ public class RingThrowing : MonoBehaviour
             material.color = Color.green;
 
             particleSystem.transform.position = other.transform.position;
+            particleSystem.transform.rotation = other.transform.rotation;
+            particleSystem.transform.Rotate(new Vector3(-90, 0, 0));
             particleSystem.Play();
         }
     }
