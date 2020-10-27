@@ -10,6 +10,7 @@ public class RingThrowing : MonoBehaviour
     void Start()
     {
         particleSystem = this.GetComponentInChildren<ParticleSystem>();
+        particleSystem.Stop();
     }
 
     // Update is called once per frame
