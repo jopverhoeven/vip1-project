@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 62c6fd51cb5aecb4f9ec73ed812eb143
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable:
+  - first:
+      74: 3546058558713596492
+    second: Jop Ring Gooien 1
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: RubenGoed:HipNull
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RubenGoed:RThighNull
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RubenGoed:LThighNull
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RubenGoed:RShinNull
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RubenGoed:LShinNull
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RubenGoed:RFootNull
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RubenGoed:LFootNull
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RubenGoed:AbNull
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RubenGoed:ChestNull
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RubenGoed:NeckNull
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RubenGoed:HeadNull
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RubenGoed:RShoulderNull
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RubenGoed:LShoulderNull
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RubenGoed:RUArmNull
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RubenGoed:LUArmNull
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RubenGoed:RFArmNull
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RubenGoed:LFArmNull
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RubenGoed:RHandNull
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RubenGoed:LHandNull
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RubenGoed:RToeNull
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RubenGoed:LToeNull
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Ruben(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:optical
+      parentName: Ruben(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_WaistLFront
+      parentName: C3D:optical
+      position: {x: 0.18886998, y: 0.98121, z: 0.03579}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_WaistRFront
+      parentName: C3D:optical
+      position: {x: -0.08225, y: 0.98797995, z: 0.07058}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_WaistLBack
+      parentName: C3D:optical
+      position: {x: 0.23489, y: 0.93847996, z: 0.23956}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_WaistRBack
+      parentName: C3D:optical
+      position: {x: -0.0822, y: 0.97519994, z: 0.23672001}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_BackTop
+      parentName: C3D:optical
+      position: {x: 0.12201, y: 1.41936, z: 0.25649998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_Chest
+      parentName: C3D:optical
+      position: {x: 0.049599998, y: 1.28145, z: 0.054619998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_BackLeft
+      parentName: C3D:optical
+      position: {x: 0.21332, y: 1.2776699, z: 0.26376}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_BackRight
+      parentName: C3D:optical
+      position: {x: 0.07156, y: 1.27946, z: 0.30423}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_HeadTop
+      parentName: C3D:optical
+      position: {x: 0.09227, y: 1.73404, z: 0.18438}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_HeadFront
+      parentName: C3D:optical
+      position: {x: 0.016069999, y: 1.72213, z: 0.023689998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_HeadSide
+      parentName: C3D:optical
+      position: {x: -0.01789, y: 1.6742101, z: 0.15932}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_LShoulderBack
+      parentName: C3D:optical
+      position: {x: 0.28764, y: 1.36199, z: 0.19813}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_LShoulderTop
+      parentName: C3D:optical
+      position: {x: 0.24094999, y: 1.4476601, z: 0.12086}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_LElbowOut
+      parentName: C3D:optical
+      position: {x: 0.31824, y: 1.0761, z: 0.03721}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_LUArmHigh
+      parentName: C3D:optical
+      position: {x: 0.30012, y: 1.185, z: 0.15555}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_LHandOut
+      parentName: C3D:optical
+      position: {x: -0.0094, y: 1.06994, z: -0.14755999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_LWristOut
+      parentName: C3D:optical
+      position: {x: 0.024719998, y: 1.05513, z: -0.09513}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_LWristIn
+      parentName: C3D:optical
+      position: {x: 0.06297, y: 1.1497699, z: -0.07604}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_RShoulderBack
+      parentName: C3D:optical
+      position: {x: -0.03785, y: 1.3713901, z: 0.31423}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_RShoulderTop
+      parentName: C3D:optical
+      position: {x: -0.05495, y: 1.44143, z: 0.21982}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_RElbowOut
+      parentName: C3D:optical
+      position: {x: -0.13776, y: 1.03947, z: 0.26349}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_RUArmHigh
+      parentName: C3D:optical
+      position: {x: -0.05998, y: 1.16264, z: 0.29428}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_RHandOut
+      parentName: C3D:optical
+      position: {x: -0.106979996, y: 1.09004, z: -0.11258}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_RWristOut
+      parentName: C3D:optical
+      position: {x: -0.086689994, y: 1.0693699, z: -0.05412}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_RWristIn
+      parentName: C3D:optical
+      position: {x: -0.10014, y: 1.1795499, z: -0.01222}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_LKneeOut
+      parentName: C3D:optical
+      position: {x: 0.23656, y: 0.39164, z: 0.19375}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_LThigh
+      parentName: C3D:optical
+      position: {x: 0.17638, y: 0.53076, z: 0.04625}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_LAnkleOut
+      parentName: C3D:optical
+      position: {x: 0.20207, y: 0.05105, z: 0.29628}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_LShin
+      parentName: C3D:optical
+      position: {x: 0.16549999, y: 0.09755, z: 0.18832}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_LToeOut
+      parentName: C3D:optical
+      position: {x: 0.2354, y: -0.00088999997, z: 0.15428}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_LToeIn
+      parentName: C3D:optical
+      position: {x: 0.1551, y: -0.0070499997, z: 0.14171}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_RKneeOut
+      parentName: C3D:optical
+      position: {x: -0.11739, y: 0.39219, z: 0.19653998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_RThigh
+      parentName: C3D:optical
+      position: {x: -0.03581, y: 0.44923, z: 0.07905}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_RAnkleOut
+      parentName: C3D:optical
+      position: {x: -0.07535999, y: 0.06565, z: 0.28761998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_RShin
+      parentName: C3D:optical
+      position: {x: -0.047, y: 0.21061, z: 0.17642999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_RToeOut
+      parentName: C3D:optical
+      position: {x: -0.1528, y: -0.0072399997, z: 0.20058}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:RubenGoed_RToeIn
+      parentName: C3D:optical
+      position: {x: -0.10401, y: 0.00823, z: 0.15666999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RubenGoed:HipNull
+      parentName: Ruben(Clone)
+      position: {x: 0, y: 0.9248922, z: 0.13915}
+      rotation: {x: -0.008439313, y: 0.9986362, z: 0.02389263, w: -0.04564779}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RubenGoed:AbNull
+      parentName: RubenGoed:HipNull
+      position: {x: -0, y: 0.08057, z: 0}
+      rotation: {x: -0.07118288, y: 0.042585295, z: 0.058119502, w: 0.9948576}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RubenGoed:ChestNull
+      parentName: RubenGoed:AbNull
+      position: {x: -0, y: 0.20385, z: 0}
+      rotation: {x: 0.13615082, y: 0.01423761, z: -0.04781529, w: 0.98943114}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RubenGoed:NeckNull
+      parentName: RubenGoed:ChestNull
+      position: {x: -0, y: 0.23184, z: 0}
+      rotation: {x: 0.018072778, y: 0.65562576, z: -0.14657362, w: 0.7405029}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RubenGoed:HeadNull
+      parentName: RubenGoed:NeckNull
+      position: {x: -0, y: 0.15229, z: 0.01965}
+      rotation: {x: -0.0941144, y: 0.6887261, z: 0.15788305, w: 0.70133567}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RubenGoed:LShoulderNull
+      parentName: RubenGoed:ChestNull
+      position: {x: -0.03991, y: 0.19506, z: -0.00134}
+      rotation: {x: -0.035463363, y: 0.10032515, z: -0.0878804, w: 0.99043137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RubenGoed:LUArmNull
+      parentName: RubenGoed:LShoulderNull
+      position: {x: -0.11108, y: 0, z: 0}
+      rotation: {x: 0.5227034, y: -0.031370744, z: 0.149125, w: 0.83878416}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RubenGoed:LFArmNull
+      parentName: RubenGoed:LUArmNull
+      position: {x: -0.30119, y: 0, z: 0}
+      rotation: {x: -0.20163727, y: -0.0054125017, z: -0.003966592, w: 0.97943735}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RubenGoed:LHandNull
+      parentName: RubenGoed:LFArmNull
+      position: {x: -0.27365997, y: 0, z: 0}
+      rotation: {x: -0.19019239, y: 0.09914706, z: -0.22763568, w: 0.9498309}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RubenGoed:RShoulderNull
+      parentName: RubenGoed:ChestNull
+      position: {x: 0.03835, y: 0.19506, z: -0.00134}
+      rotation: {x: -0.024729438, y: 0.033024777, z: 0.070329, w: 0.9966703}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RubenGoed:RUArmNull
+      parentName: RubenGoed:RShoulderNull
+      position: {x: 0.11108, y: 0, z: 0}
+      rotation: {x: 0.46227595, y: -0.061918236, z: -0.041030854, w: 0.8836196}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RubenGoed:RFArmNull
+      parentName: RubenGoed:RUArmNull
+      position: {x: 0.30119, y: 0, z: 0}
+      rotation: {x: -0.270169, y: 0.007568584, z: 0.008556022, w: 0.96274513}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RubenGoed:RHandNull
+      parentName: RubenGoed:RFArmNull
+      position: {x: 0.26783, y: 0, z: 0}
+      rotation: {x: -0.25119764, y: -0.033197653, z: 0.19461927, w: 0.94758695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RubenGoed:LThighNull
+      parentName: RubenGoed:HipNull
+      position: {x: -0.098249994, y: 0, z: 0}
+      rotation: {x: 0.08692836, y: -0.0325043, z: 0.018580103, w: 0.9955108}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RubenGoed:LShinNull
+      parentName: RubenGoed:LThighNull
+      position: {x: -0, y: -0.49916998, z: 0}
+      rotation: {x: 0.00034065542, y: 0.12080458, z: 0.0067831734, w: 0.9926531}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RubenGoed:LFootNull
+      parentName: RubenGoed:LShinNull
+      position: {x: -0, y: -0.35667, z: 0}
+      rotation: {x: 0.050801907, y: -0.98910856, z: 0.016593076, w: 0.1371432}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RubenGoed:LToeNull
+      parentName: RubenGoed:LFootNull
+      position: {x: -0, y: -0.06386, z: 0.14738}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RubenGoed:RThighNull
+      parentName: RubenGoed:HipNull
+      position: {x: 0.098249994, y: 0, z: 0}
+      rotation: {x: 0.08435549, y: -0.076091, z: 0.055692594, w: 0.99196404}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RubenGoed:RShinNull
+      parentName: RubenGoed:RThighNull
+      position: {x: -0, y: -0.49916998, z: 0}
+      rotation: {x: -0.004434228, y: -0.08454585, z: -0.05098899, w: 0.9951043}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RubenGoed:RFootNull
+      parentName: RubenGoed:RShinNull
+      position: {x: -0, y: -0.35667, z: 0}
+      rotation: {x: -0.05128427, y: 0.99419683, z: 0.0019488528, w: -0.094545655}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RubenGoed:RToeNull
+      parentName: RubenGoed:RFootNull
+      position: {x: -0, y: -0.06386, z: 0.14738}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: f0f5626318aeed244bd8ba8648fc3911, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
