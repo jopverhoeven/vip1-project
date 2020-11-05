@@ -85,8 +85,18 @@ v2f vert(appdata v)
 	// object space view direction (will normalize per pixel)
 	o.viewDir.xzy = WorldSpaceViewDir(v.vertex);
 	
-	#if defined(HAS_REFLECTION) || defined(HAS_REFRACTION)
-	o.ref = ComputeNonStereoScreenPos(o.pos);
+	o.ref = ComputeScreenPos(o.pos);
+
+	// here are the VR changes. The camera projection is used to offset the o.ref value
+	#ifndef UNITY_SINGLE_PASS_STEREO
+		if (unity_CameraProjection[0][2] < 0)
+		{
+			o.ref.x = (o.ref.x * 0.5f);
+		}
+		else if (unity_CameraProjection[0][2] > 0)
+		{
+			o.ref.x = (o.ref.x * 0.5f) + (o.ref.w * 0.5f);
+		}
 	#endif
 
 	UNITY_TRANSFER_FOG(o,o.pos);

@@ -5,12 +5,15 @@ using UnityEngine;
 public class RingThrowing : MonoBehaviour
 {
     private ParticleSystem particleSystem;
+    private AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
         particleSystem = this.GetComponentInChildren<ParticleSystem>();
         particleSystem.Stop();
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -22,6 +25,9 @@ public class RingThrowing : MonoBehaviour
 
     public void OnTriggerEnter(Collider other) {
         if (other.tag == "RingThrowing") {
+
+            audioSource.Play();
+
             Material material = other.gameObject.GetComponent<MeshRenderer>().material;
             material.color = Color.green;
 

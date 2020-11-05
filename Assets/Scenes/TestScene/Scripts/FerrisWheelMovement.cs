@@ -7,11 +7,12 @@ public class FerrisWheelMovement : MonoBehaviour
 
     public float rotateSpeed;
     private bool isMoving;
+    private AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        audioSource = GetComponent<AudioSource>();
     }
 
 
@@ -25,6 +26,11 @@ public class FerrisWheelMovement : MonoBehaviour
     }
 
     public void ToggleMovement() {
+        if (isMoving) {
+            audioSource.Stop();
+        } else {
+            audioSource.Play();
+        }
         isMoving = !isMoving;
     }
 }

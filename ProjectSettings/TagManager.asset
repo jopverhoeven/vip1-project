@@ -7,6 +7,8 @@ TagManager:
   - RingThrowing
   - MovingAlong
   - Terrain
+  - projectile
+  - BlikInteraction
   layers:
   - Default
   - TransparentFX
